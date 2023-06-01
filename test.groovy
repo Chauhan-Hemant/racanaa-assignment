@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get Source Code') {
             steps {
-                git credentialsId: '98388559-3d3a-422f-b064-13d554412673', url: 'https://github.com/Chauhan-Hemant/racanaa-assignment.git'
+                git credentialsId: '2a35fe19-cf1f-4668-9aa5-6b5db4240fb3', url: 'https://github.com/Chauhan-Hemant/racanaa-assignment.git'
                 echo 'Hello World'
             }
         }
