@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Login-Test">
+        <classes>
+            <class name="login.LoginTest">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="File-Upload-Test">
+        <classes>
+            <class name="fileUpload.FileUploadTest">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Broken-Images-Test">
+        <classes>
+            <class name="brokenImages.BrokenImagesTest">
+                <methods>
+                    <include name="testBrokenImages"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
