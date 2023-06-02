@@ -13,6 +13,10 @@ import java.util.Map;
 public class DataFunctions {
 
     private HashMap<String,String> testData = new HashMap<>();
+
+    /*
+    Method to load the configuration file which has the urls for base test class
+     */
     public Map<String, String> loadConfig() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
 
@@ -32,6 +36,9 @@ public class DataFunctions {
         return null;
     }
 
+    /*
+    Method to read the json data which is present in the main/resources directory (generic data which is not test specific)
+     */
     private void readConfig(String prefix, JsonNode node, Map<String, Object> newJsonMap) {
         if (node.isObject()) {
             Iterator<Map.Entry<String, JsonNode>> fields = node.fields();
@@ -52,6 +59,9 @@ public class DataFunctions {
         }
     }
 
+    /*
+    Method to read the json data which is present in the test/resources directory (test specific data)
+     */
     public Map<String, String> readJsonTestData(String filePath){
         try{
             ObjectMapper objectMapper = new ObjectMapper();

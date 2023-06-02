@@ -16,6 +16,10 @@ public class BrokenInagesPage {
         this.driver = driver;
     }
 
+    /*
+    Method : The method hits the src url of all the images and
+    on the basis of returned status code it will decide the image is broken or not.
+     */
     public void verifyBrokenImages() {
         List<WebElement> imageElements = driver.findElements(By.cssSelector("#content img"));
         for (WebElement element : imageElements) {

@@ -12,14 +12,14 @@
 ## Month 1:
 - ### Requirements Review: Collaborate with the development team, product owner, and stakeholders to review and understand the project requirements in detail.
 - ### Test Strategy Development: Develop a comprehensive test strategy document that outlines the overall approach, test objectives, scope, and methodologies to be selected for testing.
-- ### Test Environment Setup: Create the necessary test environment, including hardware, software, and network configurations, to replicate the production environment as precisely as possible.
 ---
 ## Month 2:
 - ### Test Case Design: Based on the requirements, design and create test cases that cover all critical functionalities, workflows, and user scenarios of the eCommerce website.
 - ### Test Data Preparation: Gather or generate appropriate test data to support the execution of test cases, ensuring various scenarios and edge cases are considered.
-- ### Test Execution Planning: Plan the test execution schedule, including regression testing, integration testing, functional testing, performance testing, and security testing.
+- ### Test Execution Planning: Plan the test execution schedule, including manual and automation testing.
 ---
 ## Month 3:
+- ### Test Environment Setup: Create the necessary test environment, including hardware, software, and network configurations, to replicate the production environment as precisely as possible.
 - ### Functional Testing: Execute the designed test cases to validate the correct functionality of the website, ensuring that all features and modules are working as expected.
 - ### Bug Reporting: Document any identified defects or issues encountered during functional testing and report them to the development team using a standardized bug reporting template.
 ---

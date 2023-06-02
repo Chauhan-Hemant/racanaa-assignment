@@ -20,6 +20,6 @@ public class FileUploadTest extends BaseTest {
         testData = df.readJsonTestData("testData.herokuapp/FileUpload");
 
         uploadPage.uploadFile(System.getProperty("user.dir")+ File.separator +"resources"+File.separator+testData.get("filename"));
-        assertEquals(uploadPage.getUploadedFiles(), "chromedriver.exe", "Uploaded");
+        assertEquals(uploadPage.getUploadedFiles(), testData.get("filename"), testData.get("message"));
     }
 }

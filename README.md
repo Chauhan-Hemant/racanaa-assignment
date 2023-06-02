@@ -61,3 +61,14 @@ Apply -> ok
 ```
 ### After executing testng.xml it will generate test-output directory consist of emailable html report.
 ---
+## Jenkins Pipeline setup
+
+### Go to Jenkins Dashboard
+```
+New Item -> Select Pipeline -> Enter Pipeline Name -> ok
+```
+#### Goto Pipeline section 
+Select **Pipeline script from SCM** from dropdown Select **SCM** as **Git**
+#### Under Repositories section 
+#### Enter **Repository URL** as https://github.com/Chauhan-Hemant/racanaa-assignment.git
+### Specify main under **Branches to build** section and Script Path will be the path of **Jenkinsfile** path present under Repository.
