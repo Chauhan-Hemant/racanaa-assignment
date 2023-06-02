@@ -7,7 +7,7 @@ public class SecureAreaPage {
     private WebDriver driver;
 
     /*
-    SecureArea page element's x-paths
+    SecureArea page element's locators
      */
     private By statusAlert = By.id("flash");
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 
     /*
-    Login page element's x-paths
+    Login page element's locators
      */
     private WebDriver driver;
     private By usernameField = By.id("username");

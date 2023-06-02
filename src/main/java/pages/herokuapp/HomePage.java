@@ -8,7 +8,7 @@ public class HomePage {
     private WebDriver driver;
 
     /*
-    Home page element's x-paths
+    Home page element's locators
      */
     private By formAuthenticationLink = By.linkText("Form Authentication");
     private By fileUploadLink = By.linkText("File Upload");
